@@ -26,7 +26,7 @@ SECRET_KEY = '6(3mh*=#%q@hg@@z!y_%-@5p2clbrh5*ynw5!wix@te15ccw+x'
 DEBUG = True
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost','yoli.python.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost','niu2.pythonanywhere.com']
 
 
 # Application definition
