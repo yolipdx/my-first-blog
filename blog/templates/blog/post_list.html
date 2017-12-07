@@ -4,10 +4,12 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <h1>post_list</h1>
         <section>
-            I'm working now
-            <p>be patient</p>
+            {%for post in posts %}
+                <p>published: {{ post.published_date}}</p>
+                <h1><a href="">{{ post.title }}</a></h1>
+                <p>{{ post.text | linebreaksbr}}</p>
+            {% endfor %}
         </section>
     </body>
 </html>
