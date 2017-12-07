@@ -1,3 +1,4 @@
+""" import django databse and utils """
 from django.db import models
 from django.utils import timezone
 
